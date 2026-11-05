@@ -344,6 +344,7 @@ footer a:hover { color: var(--white); }
   padding: 3.5rem 2rem;
 }
 .page-hero-inner { max-width: var(--max); margin: 0 auto; }
+.page-hero .section-sub { color: var(--green-light); }
 .page-hero h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 0.5rem; }
 .page-hero p { opacity: 0.85; max-width: 600px; font-size: 1.05rem; }
 
