@@ -486,3 +486,12 @@ footer a:hover { color: var(--white); }
 @media (max-width: 680px) {
   .proof-block { grid-template-columns: 1fr; }
 }
+
+/* Newsletter promo band */
+.nl-promo { background: var(--green-light); padding: 3rem 2rem; }
+.nl-promo-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; }
+.nl-promo img { width: 100%; border-radius: 8px; display: block; }
+.nl-promo-text { font-size: 1.05rem; line-height: 1.6; margin: 1rem 0 0.5rem; }
+.nl-promo-contact { font-family: var(--sans); font-size: 0.95rem; }
+.nl-promo-contact a { color: var(--green-dark); font-weight: 600; text-decoration: none; }
+@media (max-width: 700px) { .nl-promo-inner { grid-template-columns: 1fr; } }
